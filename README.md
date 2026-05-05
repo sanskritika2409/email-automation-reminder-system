@@ -1,3 +1,5 @@
+Got it — your README is breaking because it has **duplicate sections + broken markdown structure**.
+
 # 📧 Email Automation & Reminder System
 
 ## 🚀 Project Overview
@@ -33,44 +35,55 @@ This system automates the entire process using Python.
 ✔ Pie Charts & Trend Graphs  
 ✔ Live Logging System  
 ✔ Downloadable Reports  
-✔ Dark Sidebar SaaS UI  
+✔ SaaS-style Dashboard UI  
 
 ---
 
 ## 🛠 Tech Stack
 
-- Python 🐍
-- Streamlit 📊
-- Pandas 📑
-- Plotly 📈
-- SMTP (smtplib) 📧
-- OS & Logging 🧾
+- Python 🐍  
+- Streamlit 📊  
+- Pandas 📑  
+- Plotly 📈  
+- SMTP (smtplib) 📧  
+- Logging 🧾  
 
 ---
 
 ## 📁 Project Structure
+
+```
+
 Email-Automation-System/
 │
 ├── data/
-│ ├── contacts.csv
-│ ├── reminders.csv
+│   ├── contacts.csv
+│   ├── reminders.csv
+│
+├── images/
+│   ├── dashboard.png
+│   ├── analytics1.png
+│   ├── analytics2.png
+│   ├── logs.png
 │
 ├── logs/
-│ └── email.log
+│   └── email.log
 │
 ├── outputs/
-│ └── report.csv
+│   └── report.csv
 │
 ├── src/
-│ ├── mailer.py
-│ ├── utils.py
+│   ├── mailer.py
+│   ├── utils.py
 │
 ├── dashboard/
-│ └── app.py
+│   └── app.py
 │
 ├── main.py
 ├── requirements.txt
 └── README.md
+
+````
 
 ---
 
@@ -79,41 +92,63 @@ Email-Automation-System/
 ### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-2️⃣ Run Streamlit Dashboard
+````
+
+### 2️⃣ Run Streamlit Dashboard
+
+```bash
 streamlit run dashboard/app.py
-📊 Dashboard Preview
-🟢 Main Dashboard
+```
 
-## screenshot here:
-📸 Dashboard Preview
+---
 
-📊 Main Dashboard
+## 📊 Dashboard Preview
 
-![Dashboard](images/dashboard.png)
+### 🟢 Main Dashboard
 
-📈 Analytics View
+![Dashboard](./images/dashboard.png)
 
-![Analytics](images/analytics1.png)
-![Analytics](images/analytics2.png)
+---
 
+### 📈 Analytics View
 
-🧾 Logs Section
-![Logs](images/logs.png)
+![Analytics](./images/analytics1.png)
+![Analytics](./images/analytics2.png)
+
+---
+
+### 🧾 Logs Section
+
+![Logs](./images/logs.png)
+
+---
+
+## 📌 Learning Outcomes
 
 ✔ Email automation using Python
 ✔ SMTP protocol understanding
 ✔ Scheduling & automation logic
-✔ Real-world logging system
+✔ Logging system implementation
 ✔ Dashboard creation using Streamlit
 ✔ Data visualization with Plotly
 
-🚀 Future Improvements
-Add Gmail API integration
-Add login system
-Multi-user dashboard
-Database (SQLite/PostgreSQL)
-Email tracking (open/click analytics)
-👩‍💻 Author
+---
 
-Built by Sanskritika
-Project for Python Developer Portfolio 💼
+## 🚀 Future Improvements
+
+* Gmail API integration
+* Login authentication system
+* Multi-user dashboard
+* Database integration (SQLite/PostgreSQL)
+* Email tracking (open/click analytics)
+
+---
+
+## 👩‍💻 Author
+
+Built by **Sanskritika**
+Python Developer Portfolio Project 💼
+
+
+
+
