@@ -1,0 +1,6 @@
+Hi {name},
+
+{message}
+
+Regards,
+Automation System
